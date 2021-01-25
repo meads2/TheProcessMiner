@@ -2,16 +2,18 @@ from flask import Flask
 
 app = Flask(__name__)
 
-
-@app.route("/")
+@app.route('/')
 def root():
     return {"message": "Hello World"}
 
 
-@app.route("/<process>")
+@app.route('/<process>')
 def proc(process):
     return {"message": "Hello World",
             "process": f"{process}"}
 
+@app.route('')
+def gen_image()
+
 if __name__ == '__main__':
-    app.run(debug=True, host='0.0.0.0', port=5000)
+    app.run(host='0.0.0.0', port=5000)
