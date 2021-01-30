@@ -8,12 +8,12 @@ and presenting them in Process Map Visuals using pm4py library.
 
 ### 1. Install TheProcessMiner
 ```bash
-mkdir processminer
+mkdir processminer && cd processminer
 python -m venv venv
-python -v
 source venv/bin/activate
 git clone https://github.com/meads2/TheProcessMiner.git
 pip install -r requirements.txt
 python main.py
 ```
-
+### 2. Navigate to a Browser
+Go to '0.0.0.0:5000/online_order' or /signup or /termination to view examples
