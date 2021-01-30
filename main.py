@@ -12,6 +12,10 @@ def load_data(process):
     petri_net, initial_marking, final_marking = pm4py.discover_petri_net_alpha_plus(event_log)
     pm4py.save_vis_petri_net(petri_net, initial_marking, final_marking, 'my-process.png')
 
+@app.route('/')
+def index():
+    return 'Welcome To Process Miner', 200
+
 @app.route('/<process>')
 def proc(process):
     if process is None:
