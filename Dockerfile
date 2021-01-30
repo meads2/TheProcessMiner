@@ -1,4 +1,8 @@
-from python:3.7-alpine
+FROM python:3.7.4-slim
+
+RUN apt-get update \
+    && apt-get install graphviz -y \
+    && apt-get clean
 
 RUN pip install --upgrade pip
 

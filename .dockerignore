@@ -1,2 +1,5 @@
-__pycache__
+__pycache__/
 copilot/
+.vscode/
+.pytest_cache/
+venv/

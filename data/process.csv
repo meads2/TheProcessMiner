@@ -1,0 +1,21 @@
+case_id,process,activity,timestamp
+1,online_order,user visits site,1/1/2021
+1,online_order,browses products,1/2/2021
+1,online_order,adds products to cart,1/3/2021
+1,online_order,enters shipping and billing,1/4/2021
+1,online_order,charges card,1/5/2021
+1,online_order,complete order,1/6/2021
+2,signup,visit site,1/7/2021
+2,signup,click signup,1/8/2021
+2,signup,register,1/9/2021
+2,signup,confirm email,1/10/2021
+2,signup,exit,1/11/2021
+3,signup,click referal email,1/12/2021
+3,signup,enter details,1/13/2021
+3,signup,exit,1/14/2021
+4,signup,employer admin create,1/15/2021
+4,signup,new user alerted,1/16/2021
+5,service_termination,user navigates to settings,1/17/2021
+5,service_termination,clicks unsubscribe,1/18/2021
+5,service_termination,confirms action,1/19/2021
+5,service_termination,service terminated,1/20/2021
